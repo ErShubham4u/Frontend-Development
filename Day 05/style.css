@@ -1,0 +1,24 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html,
+body {
+  width: 100%;
+  height: 100%;
+}
+
+/* div {
+  width: 100%;
+  height: 100%;
+  background-color: red;
+} */
+
+div {
+  width: 100%;
+  height: 100%;
+  background-image: url(https://images.unsplash.com/photo-1683009427037-c5afc2b8134d?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDF8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D);
+  background-size: cover;
+}
