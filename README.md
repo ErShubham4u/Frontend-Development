@@ -22,6 +22,12 @@ Output images for each day's code are provided below, offering a quick visual re
 **Output Image: Day06**
 ![Day 06](https://github.com/ErShubham4u/Frontend-Development/assets/100616631/070a978c-d203-4a52-ae17-e2ea27fbb393)
 
+**Output Image: Day06 Part 01**
+![Day 07 Part 01](https://github.com/ErShubham4u/Frontend-Development/assets/100616631/c6f96524-b1bc-4419-9dff-4763a51beb18)
+
+**Output Image: Day06 Part 02**
+![Day 07 Part 02](https://github.com/ErShubham4u/Frontend-Development/assets/100616631/2a543ecd-5249-49e1-b8e6-121102ad5641)
+
 ## Usage
 
 Feel free to explore the daily code snippets by checking out different commits. You can also refer to the corresponding output images to see the visual output of each day's code.
