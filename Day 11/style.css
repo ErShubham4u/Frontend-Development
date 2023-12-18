@@ -1,0 +1,205 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: cursive;
+  box-sizing: border-box;
+}
+
+html,
+body {
+  width: 100%;
+  height: 100%;
+}
+
+#main {
+  display: flex;
+  width: 100%;
+  height: 100%;
+}
+#left {
+  width: 80%;
+  height: 100%;
+}
+
+#left #ltop {
+  width: 100%;
+  height: 70%;
+  background-image: url(https://images.unsplash.com/photo-1508013861974-9f6347163ebe?q=80&w=876&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D);
+  background-size: cover;
+}
+#left #lbottom {
+  width: 100%;
+  height: 30%;
+  color: #fff;
+  padding: 70px 100px;
+  background-color: #222;
+}
+
+#lbtcontent {
+  display: flex;
+  width: 100%;
+}
+
+#contentleft {
+  width: 45%;
+  height: 100%;
+}
+
+#contentleft p {
+  width: 75%;
+  margin-top: 30px;
+  font-size: 12px;
+}
+
+#contentright {
+  width: 45%;
+  height: 100%;
+}
+
+.row {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 10px;
+}
+
+.relem {
+  display: flex;
+}
+
+.relemtext {
+  margin-left: 10px;
+}
+
+.relemtext h6 {
+  opacity: 0.5;
+  font-weight: 500;
+}
+
+.relem i {
+  color: rgba(96, 244, 33, 0.871);
+}
+
+#right {
+  width: 20%;
+  height: 100%;
+}
+
+#right #rtop {
+  display: flex;
+  position: relative;
+  /* Jo element left to right aa rahe hai o ab top to bottom aayenge */
+  flex-direction: column;
+  width: 100%;
+  height: 70%;
+  /* padding hamesha parent ko do */
+  padding: 70px;
+  background-color: #fff;
+}
+
+#rtop a {
+  text-decoration: none;
+  color: #000;
+  font-weight: 700;
+  font-size: 11px;
+  letter-spacing: 3px;
+  margin-bottom: 30px;
+  text-transform: uppercase;
+  font-family: cursive;
+}
+
+/* #rtop a:nth-child(2) {
+  position: relative;
+  margin-left: 20px;
+} */
+
+#rtop #selected {
+  position: relative;
+  margin-left: 20px;
+}
+
+/* 2nd child ko pakdo */
+#rtop #selected::before {
+  /* content: "-"; */
+  /* before ya after put karoge to usme content dena jaruri hai */
+  content: "";
+  position: absolute;
+  left: -20px;
+  /* top: 50%; */
+  top: 7px;
+  transform: translate(0, -50%);
+  width: 10px;
+  height: 2px;
+  background-color: black;
+}
+
+#icons {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  padding: 30px;
+  top: 0;
+  right: 0;
+  position: absolute;
+}
+#icons i {
+  font-size: 20px;
+}
+
+#btmflower {
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  width: 100px;
+  height: 120px;
+  background-image: url(https://images.unsplash.com/photo-1506543730435-e2c1d4553a84?q=80&w=1887&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D);
+  background-size: cover;
+  background-position: bottom;
+}
+
+#btmflower i {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  color: #fff;
+  background-color: #0000005a;
+  font-size: 20px;
+}
+
+#right #rbottom {
+  position: relative;
+  width: 100%;
+  height: 30%;
+  background-image: url(https://images.unsplash.com/photo-1636629198288-8fe85b92110a?q=80&w=1939&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D);
+  background-size: cover;
+}
+
+#capsule {
+  position: absolute;
+  bottom: 5%;
+  left: 50%;
+  transform: translate(-50%, 0);
+  width: 90%;
+  border-radius: 10px;
+  padding: 10px 20px;
+  background-color: #fff;
+}
+
+#capsule h2 {
+  margin-top: 10px;
+  font-size: 19px;
+  line-height: 1;
+}
+
+#capsule p {
+  font-size: 12px;
+  width: 90%;
+  font-weight: 500;
+  opacity: 0.5;
+}
