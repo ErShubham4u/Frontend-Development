@@ -43,6 +43,8 @@ Output images for each day's code are provided below, offering a quick visual re
 **Output Image: Day12**
 ![OutputOfDay12](https://github.com/ErShubham4u/Frontend-Development/assets/100616631/b8e6b619-45c6-4744-beb3-9d7acea55b85)
 
+**Output Image: Day13**
+![OutputOfDay13](https://github.com/ErShubham4u/Frontend-Development/assets/100616631/e5eb08bb-6786-4b9d-b7f1-503939ccfa04)
 
 ## Usage
 
